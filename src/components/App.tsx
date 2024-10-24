@@ -2,9 +2,9 @@ import PokemonCard from "./PokemonCard";
 
 function App() {
   return (
-    <>
+    <div>
       <PokemonCard />
-    </>
+    </div>
   );
 }
 
