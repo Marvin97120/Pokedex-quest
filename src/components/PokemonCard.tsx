@@ -1,24 +1,4 @@
-type Pokemon = {
-  id: number;
-  name: string;
-  imgSrc: string;
-};
-
-const pokemonList = [
-  {
-    id: 1,
-    name: "bulbasaur",
-    imgSrc:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-  },
-  {
-    id: 2,
-    name: "mew",
-  },
-];
-
-function PokemonCard() {
-  const pokemon = pokemonList[1];
+function PokemonCard({ pokemon }) {
   return (
     <figure>
       {pokemon.imgSrc ? (
