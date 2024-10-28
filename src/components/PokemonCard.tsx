@@ -1,5 +1,4 @@
 type Pokemon = {
-  id: number;
   name: string;
   imgSrc?: string;
 };
